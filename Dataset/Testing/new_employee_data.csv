@@ -1,29 +1,60 @@
-Age,BusinessTravel,Department,DistanceFromHome,Education,EducationField,Gender,JobLevel,JobRole,MaritalStatus,MonthlyIncome,NumCompaniesWorked,RelationshipSatisfaction,StockOptionLevel,TotalWorkingYears,YearsInCurrentRole
-25,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,2,0.75,3,12
-35,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,2,0.75,3,12
-45,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,2,0.75,3,12
-55,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,2,0.75,3,12
-25,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,2,0.75,3,12
-35,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,2,0.75,3,12
-45,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,2,0.75,3,12
-55,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,2,0.75,3,12
-25,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,2,0.75,3,12
-35,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,2,0.75,3,12
-45,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,2,0.75,3,12
-55,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,2,0.75,3,12
-25,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,2,0.75,3,12
-35,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,2,0.75,3,12
-45,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,2,0.75,3,12
-55,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,2,0.75,3,12
-25,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,2,0.75,5,3
-35,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,2,0.75,5,3
-45,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,2,0.75,5,3
-55,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,2,0.75,5,3
-25,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,2,0.75,5,3
-35,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,2,0.75,5,3
-45,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,2,0.75,5,3
-55,Travel_Rarely,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,2,0.75,5,3
-25,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,2,0.75,5,3
-35,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,2,0.75,5,3
-45,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,2,0.75,5,3
-55,Travel_Rarely,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,2,0.75,5,3
+Age,Department,DistanceFromHome,Education,EducationField,Gender,JobLevel,JobRole,MaritalStatus,MonthlyIncome,NumCompaniesWorked,StockOptionLevel,TotalWorkingYears,YearsInCurrentRole
+25,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,0.75,3,12
+35,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,0.75,3,12
+45,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,0.75,3,12
+55,Sales,10,3,Medical,Male,3,Sales Executive,Married,7500,2,0.75,3,12
+25,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,0.75,3,12
+35,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,0.75,3,12
+45,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,0.75,3,12
+55,Sales,10,3,Medical,Male,3,Sales Executive,Married,12000,2,0.75,3,12
+25,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,0.75,3,12
+35,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,0.75,3,12
+45,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,0.75,3,12
+55,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,7500,2,0.75,3,12
+25,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,0.75,3,12
+35,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,0.75,3,12
+45,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,0.75,3,12
+55,Research & Development,10,3,Medical,Male,3,Laboratory Technician,Married,5000,2,0.75,3,12
+25,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,0.75,5,3
+35,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,0.75,5,3
+45,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,0.75,5,3
+55,Sales,10,3,Medical,Male,3,Sales Executive,Single,5000,2,0.75,5,3
+25,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+35,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+45,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+55,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+25,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+35,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+45,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+55,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+55,Research & Development,10,3,Medical,Female,3,Research Scientist,Single,1000,2,0.75,5,3
+55,Research & Development,10,3,Medical,Male,3,Research Scientist,Divorced,1000,2,0.75,5,3
+55,Research & Development,10,3,Medical,Female,3,Research Scientist,Divorced,1000,2,0.75,5,3
+45,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+45,Research & Development,10,3,Medical,Female,3,Research Scientist,Single,1000,2,0.75,5,3
+45,Research & Development,10,3,Medical,Male,3,Research Scientist,Divorced,1000,2,0.75,5,3
+45,Research & Development,10,3,Medical,Female,3,Research Scientist,Divorced,1000,2,0.75,5,3
+35,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+35,Research & Development,10,3,Medical,Female,3,Research Scientist,Single,1000,2,0.75,5,3
+35,Research & Development,10,3,Medical,Male,3,Research Scientist,Divorced,1000,2,0.75,5,3
+35,Research & Development,10,3,Medical,Female,3,Research Scientist,Divorced,1000,2,0.75,5,3
+25,Research & Development,10,3,Medical,Male,3,Research Scientist,Single,1000,2,0.75,5,3
+25,Research & Development,10,3,Medical,Female,3,Research Scientist,Single,1000,2,0.75,5,3
+25,Research & Development,10,3,Medical,Male,3,Research Scientist,Divorced,1000,2,0.75,5,3
+25,Research & Development,10,3,Medical,Female,3,Research Scientist,Divorced,1000,2,0.75,5,3
+55,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+55,Sales,10,3,Medical,Female,3,Sales Executive,Single,1000,2,0.75,5,3
+55,Sales,10,3,Medical,Male,3,Sales Executive,Divorced,1000,2,0.75,5,3
+55,Sales,10,3,Medical,Female,3,Sales Executive,Divorced,1000,2,0.75,5,3
+45,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+45,Sales,10,3,Medical,Female,3,Sales Executive,Single,1000,2,0.75,5,3
+45,Sales,10,3,Medical,Male,3,Sales Executive,Divorced,1000,2,0.75,5,3
+45,Sales,10,3,Medical,Female,3,Sales Executive,Divorced,1000,2,0.75,5,3
+35,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+35,Sales,10,3,Medical,Female,3,Sales Executive,Single,1000,2,0.75,5,3
+35,Sales,10,3,Medical,Male,3,Sales Executive,Divorced,1000,2,0.75,5,3
+35,Sales,10,3,Medical,Female,3,Sales Executive,Divorced,1000,2,0.75,5,3
+25,Sales,10,3,Medical,Male,3,Sales Executive,Single,1000,2,0.75,5,3
+25,Sales,10,3,Medical,Female,3,Sales Executive,Single,1000,2,0.75,5,3
+25,Sales,10,3,Medical,Male,3,Sales Executive,Divorced,1000,2,0.75,5,3
+25,Sales,10,3,Medical,Female,3,Sales Executive,Divorced,1000,2,0.75,5,3
